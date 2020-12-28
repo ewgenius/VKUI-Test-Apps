@@ -2990,17 +2990,17 @@
   resolved "https://registry.yarnpkg.com/@vkontakte/vk-bridge/-/vk-bridge-2.3.0.tgz#d436daeab23bf51a4485a3a45493f793dab78187"
   integrity sha512-1kICD4u5J8EO4PyGg7ZMBwOju85Wh7zb5OxVs1JYB/ghTHg5YQSmpIx9M4NZH2TnK9KelUpBEs+TwFpkB5PMyw==
 
-"@vkontakte/vkjs@^0.18.0":
+"@vkontakte/vkjs@^0.18.0", "@vkontakte/vkjs@https://github.com/VKCOM/vkjs.git#fix/ssr-support":
   version "0.18.0"
-  resolved "https://github.com/VKCOM/vkjs.git#783f3ec210c44581190fd4a6b2bc40172e11877c"
+  resolved "https://github.com/VKCOM/vkjs.git#a44eef1521e8df0a47f893a5b54e0ab4da0c9aad"
 
-"@vkontakte/vkjs@https://github.com/VKCOM/vkjs.git#fix/ssr-support":
-  version "0.18.0"
-  resolved "https://github.com/VKCOM/vkjs.git#27f90f26cac19bc81764ad64c05e43cd5d88035d"
-
-"@vkontakte/vkui@^4.0.3", "@vkontakte/vkui@https://github.com/VKCOM/VKUI.git#fix/ssr-support":
+"@vkontakte/vkui@^4.0.3":
   version "4.0.3"
-  resolved "https://github.com/VKCOM/VKUI.git#e7bbe1bab2c7412f98cc23a91e0e367c3d3ce477"
+  resolved "https://github.com/VKCOM/VKUI.git#31b0d5b1ff5aa04b8b574b77b8e9a600b6b9643d"
+
+"@vkontakte/vkui@https://github.com/VKCOM/VKUI.git#fix/ssr-support":
+  version "4.0.3"
+  resolved "https://github.com/VKCOM/VKUI.git#046d69b39525eef77a8a25a05ff92acd4dd7743a"
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"

@@ -1,4 +1,4 @@
-import { SSRWrapper } from "@vkontakte/vkui";
+import { SSRWrapper } from "@vkontakte/vkui/dist/es6";
 import Document, { Html, Head, NextScript, Main } from "next/document";
 
 class MyDocument extends Document {
