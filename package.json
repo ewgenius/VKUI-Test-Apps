@@ -4,8 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "@vkontakte/vkjs": "https://github.com/VKCOM/vkjs.git#fix/ssr-support",
+    "@vkontakte/vkui": "https://github.com/VKCOM/VKUI.git#fix/ssr-support"
   }
 }
