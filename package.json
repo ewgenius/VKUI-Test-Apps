@@ -11,7 +11,7 @@
     "lerna": "^3.22.1"
   },
   "dependencies": {
-    "@vkontakte/vkjs": "https://github.com/VKCOM/vkjs.git#fix/ssr-support",
+    "@vkontakte/vkjs": "^0.20.0",
     "@vkontakte/vkui": "https://github.com/VKCOM/VKUI.git#fix/ssr-support"
   }
 }

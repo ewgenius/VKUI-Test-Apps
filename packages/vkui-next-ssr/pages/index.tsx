@@ -24,19 +24,19 @@ export const App = withAdaptivity(
     return (
       <SplitLayout header={<PanelHeader separator={false} />} style={{ justifyContent: "center" }}>
         {isDesktop && (
-          <SplitCol fixed width="280px" maxWidth="280px">
+          <SplitCol key="1" fixed width="280px" maxWidth="280px">
             <Panel>
               <PanelHeader />
-
               <Group>test</Group>
             </Panel>
           </SplitCol>
         )}
 
         <SplitCol
+          key="2"
           animate={!isDesktop}
           spaced={isDesktop}
-          width={isDesktop ? "560px" : "100%"}
+          width={isDesktop ? "560px" : "90%"}
           maxWidth={isDesktop ? "560px" : "100%"}
         >
           <View activePanel="1">
